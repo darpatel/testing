@@ -25,8 +25,8 @@ body {
 
 body {
   font-size: 16px;
-  font-family: "Arca Majora";
-  line-height: 1.5;
+  font-family: "Helvetica neue";
+  line-height: 3.5;
 }
 
 /* =============================================================================
@@ -50,7 +50,7 @@ body {
 .content__teaser {
   margin-bottom: 24px;
   color: #ECF0F1;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .content__cta {
