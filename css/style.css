@@ -25,7 +25,11 @@ body {
 
 body {
   font-size: 16px;
+<<<<<<< HEAD
   font-family: "Majora", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+=======
+  font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+>>>>>>> origin/master
   line-height: 3.5;
 }
 
@@ -85,8 +89,6 @@ body {
 ============================================================================= */
 .video {
   position: fixed;
-  top: 50%;
-  left: 50%;
   z-index: 1;
   min-width: 100%;
   min-height: 100%;
