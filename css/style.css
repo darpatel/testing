@@ -25,7 +25,7 @@ body {
 
 body {
   font-size: 16px;
-  font-family: "Helvetica neue";
+  font-family: "Majora", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   line-height: 3.5;
 }
 
@@ -51,6 +51,24 @@ body {
   margin-bottom: 24px;
   color: #ECF0F1;
   font-size: 30px;
+    @font-face {
+    font-family: "Majora";
+    src: url('../font/ArcaMajora3-Bold.eot');
+    }
+}
+/*
+===============================================================================
+    FONT
+===============================================================================
+*/
+@font-face {
+    font-family: 'Majora';
+    src: url('');
+    src: url('.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('.woff2') format('woff2'), /* Super Modern Browsers */
+         url('.woff') format('woff'), /* Pretty Modern Browsers */
+         url('.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 .content__cta {
@@ -62,7 +80,6 @@ body {
   text-decoration: none;
   border: solid 4px #ff3c64;
 }
-
 /* =============================================================================
   VIDEO
 ============================================================================= */
